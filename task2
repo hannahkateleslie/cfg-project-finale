@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>week2task2</title>
+</head>
+<body>
+   <h1>Hello World!</h1>
+   <h2>Welcome to my site!</h2>
+   <img src="./duck.jpg" alt="A local image" width="200px">
+   <p> A lot to cover in only 8 weeks! Everyone should learn to code, here are some pretty good reasons why...
+   <br>
+   <ol>
+       <li>You can understand what is going on under the hood</li>
+       <li>Don't have to rely for prototype sites</li>
+       <li>it's "fun"</li>
+   </ol>
+ </p>
+   <i>
+   <h3>What do you need to create a website?</h3>
+   </i>
+   <br>
+   <p> Not much!
+   <ul>
+   <li> Computer </li>
+   <li> Web browswer </li>
+   <li> Text editor </li>
+   <li> HTML, CSS files </li>
+ </ul>
+</p>
+   <p> Follow my progress on Github
+   </p>
+</body>
+</html>
