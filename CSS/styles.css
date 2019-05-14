@@ -1,0 +1,37 @@
+h1 {color:white
+   ;
+   font-family:helvetica
+   ;
+   font-size:6em;
+}
+
+h2 {color:white
+   ;
+   font-family:helvetica
+   ;
+}
+a {
+  background-color: red;
+  color: white;
+  padding: 0.75em 1.5em;
+  text-decoration: bold;
+  font-family:helvetica;
+}
+body {
+  background-color:black
+    ;
+}
+p {
+  font-family:courier
+}
+p {
+  font-family:
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+p {color:white;
+}
