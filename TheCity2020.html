@@ -4,6 +4,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel= "stylesheet" href= "CSS/styles.css">
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+
 </head>
 <div class="container">
   <div class="row">
@@ -26,17 +28,18 @@
   how do these geographical trends exacerbate our current climate emergencies and why should we care?
 <br>
   <br>
-<div class="content">
-    <div id="click me">
-        Click here
-      </div>
-    <img id="smog" src="./Smog.jpg" alt="A local image" width="500px" align="left"> <p>
-      <script>
-$( "#clickme" ).click(function() {
-  $( "#Smog" ).fadeTo( "slow" , 0.5, function() {
+    
+    <img id="smog" src="./Smog.jpg" alt="A local image" width="500px" align="left">
+
+    <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#smog").fadeIn();
   });
 });
 </script>
+
+
     <div class="text">
     <p>
       For starters, cities consume a massive amount of energy and create 70% of global CO2 emissions.
