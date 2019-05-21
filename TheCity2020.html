@@ -26,17 +26,10 @@
   how do these geographical trends exacerbate our current climate emergencies and why should we care?
 <br>
   <br>
-<div class="content">
-    <div id="click me">
-        Click here
-      </div>
-    <img id="smog" src="./Smog.jpg" alt="A local image" width="500px" align="left"> <p>
-      <script>
-$( "#clickme" ).click(function() {
-  $( "#Smog" ).fadeTo( "slow" , 0.5, function() {
-  });
-});
-</script>
+
+    <img id="smog" src="./Smog.jpg" alt="A local image" width="500px" align="left" style="display:none">
+
+
     <div class="text">
     <p>
       For starters, cities consume a massive amount of energy and create 70% of global CO2 emissions.
@@ -53,3 +46,12 @@ $( "#clickme" ).click(function() {
       </p>
        </div>
      </div>
+	 </div>
+		 <script>
+ 		$(document).ready(function(){
+ 			$("#smog").fadeIn(10000);
+ 		});
+ </script>
+
+</body>
+</html>
