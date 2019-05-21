@@ -4,8 +4,6 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel= "stylesheet" href= "CSS/styles.css">
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
-
 </head>
 <div class="container">
   <div class="row">
@@ -28,16 +26,8 @@
   how do these geographical trends exacerbate our current climate emergencies and why should we care?
 <br>
   <br>
-    
-    <img id="smog" src="./Smog.jpg" alt="A local image" width="500px" align="left">
 
-    <script>
-$(document).ready(function(){
-  $("button").click(function(){
-    $("#smog").fadeIn();
-  });
-});
-</script>
+    <img id="smog" src="./Smog.jpg" alt="A local image" width="500px" align="left" style="display:none">
 
 
     <div class="text">
@@ -56,3 +46,12 @@ $(document).ready(function(){
       </p>
        </div>
      </div>
+	 </div>
+		 <script>
+ 		$(document).ready(function(){
+ 			$("#smog").fadeIn(10000);
+ 		});
+ </script>
+
+</body>
+</html>
